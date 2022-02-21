@@ -1,6 +1,6 @@
 fixed:
-  issues:
   # Post a comment, `{issue-author}` is an optional placeholder
   comment: >
     :wave: @{issue-author}, please use our idea board to request new features.
-  close: true
+  issues:
+    close: true
