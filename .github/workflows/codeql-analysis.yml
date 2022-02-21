@@ -18,7 +18,7 @@ on:
     # The branches below must be a subset of the branches above
     branches: [ v5.0-Recode ]
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 */24 * * *'
 
 jobs:
   analyze:
@@ -71,7 +71,7 @@ jobs:
     #    uses a compiled language
 
     - run: |
-       mvn clean install -f pom.xml -Denv.BUILD_NUMBER=1000 -Denv.JOB_NAME=SimplePets_v5
+       mvn clean install -f pom.xml -Denv.BUILD_NUMBER=-1 -Denv.JOB_NAME=SimplePets_v5
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
