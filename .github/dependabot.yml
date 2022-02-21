@@ -8,5 +8,4 @@ updates:
     timezone: "GMT/UTC"
   open-pull-requests-limit: 10
   labels:
-  - "Type: Dependency update"
-  - "Target: Maven"
+  - "dependabot"
