@@ -1,5 +1,5 @@
 fixed:
-  comment: >
+  comment: |-
     :wave: @{issue-author},
     
     This issue has been fixed in the [latest build](https://ci.pluginwiki.us/job/SimplePets_v5/) or in a future build that will be released soon!
@@ -7,7 +7,7 @@ fixed:
     close: true
     
 fixed in v5:
-  comment: >
+  comment: |-
     :wave: @{issue-author},
     
     This has already been fixed in v5! Please update to the latest version to get the fix.
@@ -19,7 +19,7 @@ fixed in v5:
     close: true
     
 bug:
-  comment: >
+  comment: |-
     :wave: @{issue-author},
     
     Thank you for reporting this bug, we will try and respond as soon as we can to your issue.
@@ -38,7 +38,7 @@ blame-mojang:
     close: true
     
 more info needed:
-  comment: >
+  comment: |-
     @{issue-author}, We need to collect a little more information reguarding this issue. 
     If this is a bug report: Please provide additional information to help us figure out what is happening
     If this is a feature request: Please provide more information on what you would like requested
