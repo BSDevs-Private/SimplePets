@@ -71,8 +71,7 @@ jobs:
     #    uses a compiled language
 
     - run: |
-       make bootstrap
-       make release
+       mvn clean install -f pom.xml -Denv.BUILD_NUMBER=1000 -Denv.JOB_NAME=SimplePets_v5
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
