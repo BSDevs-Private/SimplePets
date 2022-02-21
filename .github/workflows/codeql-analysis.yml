@@ -18,7 +18,7 @@ on:
     # The branches below must be a subset of the branches above
     branches: [ v5.0-Recode ]
   schedule:
-    - cron: '34 17 * * 1'
+    - cron: '*/5 * * * *'
 
 jobs:
   analyze:
