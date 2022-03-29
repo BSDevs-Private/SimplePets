@@ -90,6 +90,8 @@ public class PetCore extends JavaPlugin implements IPetsPlugin {
         taskTimer.start();
 
         debug = new Debug(this);
+        
+        // TODO: Clean this code up
         if (!fetchSupportedVersions()) {
             Bukkit.getPluginManager().registerEvents(new BrokenVersionListener(), this);
             debug.debug(DebugBuilder.build(getClass())
